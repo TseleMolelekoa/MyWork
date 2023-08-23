@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: #060606;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: #060606;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  /* Navbar buttons */
+  .navbar button {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+  }
+  
+.navbar button:hover, .navbar button.active{
+    color: #060606;
+}
+.home {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 100px;
+  }
+  
+  /* Styles for the h1 element */
+  .home h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the h3 element */
+  .home h3 {
+    font-size: 24px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the p element */
+  .home p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .circular-border {
+    width: 150px; 
+    height: 130px; 
+    border-radius: 50%; 
+    border: 2px solid #333; 
+    overflow: hidden; 
+}
+
+.circular-border img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    position: relative; 
+}
+.about_hidden {
+    display: none;
+  }
+
+
+
+
+  @media(max-width: 37.5em)
+  {
+    .section-title{font-size:2.8rem}
+}
